@@ -4,14 +4,22 @@
         <title>Home</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        <base href="">
+        <base href="" />
         <link rel="stylesheet" href="styles.css" />
         <script defer="defer" src="script.js"></script>
     </head>
 
     <body>
         <main>
-            <h1>Hello World!</h1>
+            <h1>Nokia 3310 snake</h1>
+            <div class="scoreDisplay"></div>
+            <dialog id="gameOver">
+                <div class="popover-container">
+                    <h2>Game Over!</h2>
+                    <button class="playAgain">Play Again</button>
+                </div>
+            </dialog>
+            <div class="grid"></div>
         </main>
     </body>
 </html>
